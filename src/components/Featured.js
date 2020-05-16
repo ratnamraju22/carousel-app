@@ -5,7 +5,7 @@ class Featured extends Component {
     state = { result: {} }    
 
 componentDidMount() {
-   fetch('http://demo3136867.mockable.io/featured')
+   fetch('https://demo3136867.mockable.io/featured')
   .then ((response) => response.json())
   .then(data => {
     this.setState({

@@ -13,7 +13,7 @@ this.handleChange = this.handleChange.bind(this)
     }
 
 componentDidMount() {
-    fetch('http://demo3136867.mockable.io/carousel')
+    fetch('https://demo3136867.mockable.io/carousel')
     .then ((response) => response.json())
     .then(res => 
     this.setState({
