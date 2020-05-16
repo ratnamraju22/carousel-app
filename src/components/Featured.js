@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../src/app.css'
+import '../../src/App.css'
 
 class Featured extends Component {
     state = { result: {} }    
