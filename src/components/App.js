@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import SearchCarousel from './SearchCarousel'
 import Featured from './Featured'
 
-import '../../src/app.css'
+import '../../src/App.css'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
